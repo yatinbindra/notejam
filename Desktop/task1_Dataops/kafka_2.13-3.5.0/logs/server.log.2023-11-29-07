@@ -1,0 +1,37 @@
+[2023-11-29 07:59:07,310] WARN Session 0x0 for server localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. (org.apache.zookeeper.ClientCnxn)
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 34128ms for session id 0x0
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1261)
+[2023-11-29 08:03:40,913] INFO Opening socket connection to server localhost/127.0.0.1:2181. (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:04:00,350] INFO Socket connection established, initiating session, client: /127.0.0.1:39888, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:04:36,329] WARN Client session timed out, have not heard from server in 22242ms for session id 0x0 (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:05:36,612] WARN Session 0x0 for server localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. (org.apache.zookeeper.ClientCnxn)
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 22242ms for session id 0x0
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1261)
+[2023-11-29 08:07:01,597] INFO Opening socket connection to server localhost/127.0.0.1:2181. (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:07:15,937] INFO Socket connection established, initiating session, client: /127.0.0.1:56302, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:07:36,145] WARN Client session timed out, have not heard from server in 20766ms for session id 0x0 (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:07:38,543] WARN Session 0x0 for server localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. (org.apache.zookeeper.ClientCnxn)
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 20766ms for session id 0x0
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1261)
+[2023-11-29 08:09:01,984] INFO Opening socket connection to server localhost/127.0.0.1:2181. (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:09:48,807] INFO Socket connection established, initiating session, client: /127.0.0.1:52358, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:10:22,420] WARN Client session timed out, have not heard from server in 31967ms for session id 0x0 (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:10:32,269] WARN Session 0x0 for server localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. (org.apache.zookeeper.ClientCnxn)
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 31967ms for session id 0x0
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1261)
+[2023-11-29 08:12:32,453] INFO Opening socket connection to server localhost/127.0.0.1:2181. (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:13:18,487] INFO Socket connection established, initiating session, client: /127.0.0.1:59658, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:13:56,620] WARN Client session timed out, have not heard from server in 37148ms for session id 0x0 (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:14:22,153] WARN Session 0x0 for server localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. (org.apache.zookeeper.ClientCnxn)
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 37148ms for session id 0x0
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1261)
+[2023-11-29 08:17:06,174] INFO Opening socket connection to server localhost/127.0.0.1:2181. (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:17:06,204] INFO Socket connection established, initiating session, client: /127.0.0.1:60202, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:17:06,289] INFO Session establishment complete on server localhost/127.0.0.1:2181, session id = 0x1000063799c0013, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2023-11-29 08:17:06,289] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2023-11-29 08:17:06,297] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2023-11-29 08:17:06,298] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2023-11-29 08:17:06,353] INFO [MetadataCache brokerId=0] Updated cache from existing FinalizedFeaturesAndEpoch(features=Map(), epoch=0) to latest FinalizedFeaturesAndEpoch(features=Map(), epoch=0). (kafka.server.metadata.ZkMetadataCache)
+[2023-11-29 08:17:06,353] INFO Stat of the created znode at /brokers/ids/0 is: 94,94,1701226026308,1701226026308,1,0,0,72058021279957011,202,0,94
+ (kafka.zk.KafkaZkClient)
+[2023-11-29 08:17:06,354] INFO Registered broker 0 at path /brokers/ids/0 with addresses: PLAINTEXT://localhost:9092, czxid (broker epoch): 94 (kafka.zk.KafkaZkClient)

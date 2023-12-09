@@ -1,0 +1,7 @@
+[2023-11-29 11:14:28,595] INFO [Controller id=0 epoch=7] Sending UpdateMetadata request to brokers HashSet(0) for 0 partitions (state.change.logger)
+[2023-11-29 11:14:28,724] INFO [Controller id=0 epoch=7] Sending LeaderAndIsr request to broker 0 with 1 become-leader and 0 become-follower partitions (state.change.logger)
+[2023-11-29 11:14:28,727] INFO [Controller id=0 epoch=7] Sending UpdateMetadata request to brokers HashSet(0) for 1 partitions (state.change.logger)
+[2023-11-29 11:14:29,212] INFO [Broker id=0] Handling LeaderAndIsr request correlationId 1 from controller 0 for 1 partitions (state.change.logger)
+[2023-11-29 11:14:29,492] INFO [Broker id=0] Ignoring LeaderAndIsr request from controller 0 with correlation id 1 epoch 7 for partition quickstart-events-0 since its associated leader epoch 0 matches the current leader epoch (state.change.logger)
+[2023-11-29 11:14:29,523] INFO [Broker id=0] Finished LeaderAndIsr request in 283ms correlationId 1 from controller 0 for 1 partitions (state.change.logger)
+[2023-11-29 11:14:29,608] INFO [Broker id=0] Add 1 partitions and deleted 0 partitions from metadata cache in response to UpdateMetadata request sent by controller 0 epoch 7 with correlation id 2 (state.change.logger)
